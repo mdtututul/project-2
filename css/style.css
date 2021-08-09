@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: ;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.box {
+  margin: 5%;
+  width: 40%;
+  float: left;
+}
+.container {
+  background-image: url(../img/top-banner.png);
+  background-repeat: no-repeat;
+  height: 550px;
+  margin-bottom: 250px;
+}
+.box h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.box p {
+  line-height: 25px;
+  font-weight: bold;
+  opacity: 50%;
+}
+.box h3 {
+  font-size: 23px;
+  opacity: 75%;
+}
+.box img {
+  width: 100%;
+}
+.tc {
+  color: rgb(247, 192, 11);
+}
+.hireme-btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.hireme-btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(247, 192, 11);
+  margin-top: 45px;
+  border-radius: 5px;
+}
+.sec2 {
+  background-image: url(../img/dream-bg.png);
+  background-repeat: no-repeat;
+  height: 550px;
+  background-position-x: right;
+  background-position-y: 42px;
+  margin-bottom: 95px;
+}
+.box2 {
+  width: 40%;
+  float: left;
+}
+.box2 img {
+  width: 85%;
+}
+.box2-img {
+  margin: 0 5%;
+}
+.box2 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.box2 h3 {
+  font-size: 23px;
+  opacity: 75%;
+}
+.box2 p {
+  line-height: 25px;
+  font-weight: bold;
+  opacity: 50%;
+}
+.resume-btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(247, 192, 11);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.resume-btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.boxc1 {
+  width: 40%;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  margin: 0 5%;
+  border-left: 5px solid orange;
+  border-radius: 4px;
+}
+.box-shadow {
+  box-shadow: 10px 10px 40px gray;
+}
+.experinces {
+  height: 450px;
+  background-image: url(../img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+.experinces h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.highlightP {
+  color: orange;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+footer {
+  text-align: center;
+
+  bottom: 0;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .box {
+  }
+  .box2 {
+    width: 80%;
+    background-image: none;
+  }
+  .sec2 {
+    background-image: none;
+  }
+  .sec2c {
+    margin: 39px;
+  }
+}
